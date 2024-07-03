@@ -28,7 +28,7 @@ export function Content() {
 
   const handleClose = () => {
     console.log("handleClose");
-    setIsStudentShowVisible("false");
+    setIsStudentShowVisible(false);
   };
   
   return (
