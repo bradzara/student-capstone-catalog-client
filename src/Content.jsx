@@ -18,6 +18,14 @@ export function Content() {
     });
   };
 
+  // const handleIndexCapstone = () => {
+  //   console.log("handleIndexCapstone");          
+  //   axios.get("http://localhost:3000/capstones.json").then((response) => {
+  //     console.log(response.data);
+  //     setStudents(response.data);
+  //   });
+  // };
+  
   useEffect(handleIndexStudents, []);
 
   const handleShowStudent = (student) => {
